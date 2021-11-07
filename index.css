@@ -1,0 +1,35 @@
+.title {
+  color:rgb(20, 15, 15);
+  font-family: 'sans-serif';
+  font-size: 40px;
+  font-style: 'oblique';
+  text-decoration: none;
+  text-shadow: 4px 4px 5px grey;
+  text-align: center;
+}
+
+.game-area {
+  position: relative;
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #000;
+  background-color: grey;
+}
+
+.snake-dot {
+  position: absolute;
+  width:  2%;
+  height: 2%;
+  background-color: blue;
+  border: 1px solid red;
+}
+
+.snake-food {
+  position: absolute;
+  width:  2%;
+  height: 2%;
+  background-color: black;
+  border: 1px solid rgb(145, 49, 49);
+  z-index: 1;
+}
